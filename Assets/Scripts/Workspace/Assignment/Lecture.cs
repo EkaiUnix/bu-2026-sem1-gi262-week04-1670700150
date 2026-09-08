@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace Assignment
 {
@@ -61,6 +62,12 @@ namespace Assignment
 
         public void LCT03_SyntaxHashTable()
         {
+            Hashtable table = new Hashtable();
+            table.Add("Potion", 1);
+            table.Add(true, "");
+            table.Add(0, 0);
+            table[true] = 1;
+
             throw new System.NotImplementedException();
         }
 
